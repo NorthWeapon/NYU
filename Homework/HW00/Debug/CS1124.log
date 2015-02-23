@@ -1,0 +1,7 @@
+﻿  hw00.cpp
+c:\users\syed\documents\visual studio 2013\projects\cs 1124\cs1124\hw00.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+c:\users\syed\documents\visual studio 2013\projects\cs 1124\cs1124\hw00.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+c:\users\syed\documents\visual studio 2013\projects\cs 1124\cs1124\hw00.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+c:\users\syed\documents\visual studio 2013\projects\cs 1124\cs1124\hw00.cpp(85): warning C4101: 'decryptedCharacter' : unreferenced local variable
+c:\users\syed\documents\visual studio 2013\projects\cs 1124\cs1124\hw00.cpp(85): warning C4101: 'encryptedCharacter' : unreferenced local variable
+  CS1124.vcxproj -> C:\Users\Syed\Documents\Visual Studio 2013\Projects\CS 1124\CS1124\Debug\HW00.exe
