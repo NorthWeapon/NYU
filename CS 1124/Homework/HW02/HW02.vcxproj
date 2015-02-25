@@ -64,6 +64,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hw02.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="oldWarriors.txt" />
+    <Text Include="oldOutput.txt" />
+    <Text Include="output.txt" />
+    <Text Include="prompt.txt" />
+    <Text Include="sampleOutput.txt" />
+    <Text Include="warriors.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
