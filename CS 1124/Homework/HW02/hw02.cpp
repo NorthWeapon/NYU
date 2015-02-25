@@ -1,13 +1,10 @@
 /*
-Note: 
-
-
 Name: Syed Aman
 NYU ID: N15737606
-Assignment: Homework 01 "Structs"
+Assignment: Homework 02 "Object Oriented Programming"
 
-Note:
-I am newly enrolled into the class as of February 6th, 2015. I was given a time extension by Professor Kletenik to finish HW00 HW01 REC01 and REC02
+Note: The output on the website says: "Torvalds defeats Gates", however, it should be "He's dead, Torvalds" according to the rules provided. Torvalds has more strength
+than Gates before battle, therefore Gates should be dead after battle
 */
 
 #include <iostream>
