@@ -1,0 +1,56 @@
+<html><!-- #BeginTemplate "/Templates/Cs1124.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>CS 1124</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<h1 align="center">CS 1124 &#151; Object Oriented Programming</h1>
+<!-- #BeginEditable "Body" -->
+<h2 align="center">Recitation 5 </h2>
+<h3>Developing your classes:</h3>
+<p>Below is the <font face="Courier New, Courier, mono">main()</font> for this scenario. Your classes must provide the functionality as shown in the test code. <br>
+  Consider doing incremental development<strong>:</strong> </p>
+<ol>
+  <li>comment out <em>all</em> the code in <font face="Courier New, Courier, mono">main()<font face="Times New Roman, Times, serif"> <em>except</em> the seven output statements</font> </font></li>
+  <li>start writing the class definition for <font face="Courier New, Courier, mono">LabWorker</font> - write only the data members and the constructor and get this compiling</li>
+  <li>to test that <font face="Courier New, Courier, mono">LabWorker</font> really works, what would you uncomment in <font face="Courier New, Courier, mono">main()</font>? {the two <font face="Courier New, Courier, mono">LabWorker</font> variable defintions} <br>
+    You would use the debugger to check the values stored in a lab worker's data member are correct - or you might want to write a display method - for today - don't write the display method in <font face="Courier New, Courier, mono">LabWorker</font> - just use the debugger to check that the correct name was set and that NULL is where it should be (where should it be?)</li>
+  <li>start writing the class definition for <font face="Courier New, Courier, mono">Section</font> - write only the data members and the constructor and get this compiling </li>
+  <li>to test <font face="Courier New, Courier, mono">Section</font>, what would you uncomment in <font face="Courier New, Courier, mono">main()</font>? {the two <font face="Courier New, Courier, mono">Section</font> variable definitions} </li>
+  <li>what else needed to be written?</li>
+  <li>write the class <font face="Courier New, Courier, mono">TimeSlot</font> and try to compile again</li>
+  <li> add the <font face="Courier New, Courier, mono">display()</font> method to <font face="Courier New, Courier, mono">Section<font face="Times New Roman, Times, serif"> (and any other methods needed elsewhere) </font></font></li>
+  <li>to test what you just added, what you would you uncomment in <font face="Courier New, Courier, mono">main()</font>? {<font face="Courier New, Courier, mono">secA2.display()</font> and <font face="Courier New, Courier, mono">secB3.display()</font> } <br>
+    NOTE: the output should be <font face="Courier New, Courier, mono"><code>NO RECORDS</code></font> since no records have been added and <font face="Courier New, Courier, mono"><code>NONE</code></font> for the lab worker since no lab worker has been associated yet (you would NOT set &quot;NONE&quot; as the name of the lab worker when there is not one connected).<br>
+    This is the same output as after resetting the Section shown at the bottom of the output below</li>
+  <li>write the <font face="Courier New, Courier, mono">LoadStudentsFromFile()</font> method in the <font face="Courier New, Courier, mono">Section</font> class</li>
+  <li>test this by uncommenting both calls to this method in <font face="Courier New, Courier, mono">main()<br>
+        <font face="Times New Roman, Times, serif">NOTE: now the output should be more like what is shown in the output below before any grades are added - but the lab worker should still say <font face="Courier New, Courier, mono"><code>NONE</code></font></font></font></li>
+  <li>now try to get the <em><font face="Arial, Helvetica, sans-serif">association</font></em> between <font face="Courier New, Courier, mono">LabWorker</font> and <font face="Courier New, Courier, mono">Section</font> working - write the <font face="Courier New, Courier, mono">addInstructor()</font> method in <font face="Courier New, Courier, mono">Section</font> (and write any other methods needed in other places) </li>
+  <li>to test what you just added, uncomment both <font face="Courier New, Courier, mono">addInstructor()</font> calls<br>
+    NOTE: now the output should completely match the output below for the two sections' displays before any grades are added</li>
+  <li>now write the <font face="Courier New, Courier, mono">displayGrades()</font> method in <font face="Courier New, Courier, mono">LabWorker</font> </li>
+  <li>to test what you just added, uncomment both calls to this method <br>
+    NOTE: the output of the grades should be <font face="Courier New, Courier, mono"><code>NO RECORDS</code></font> since no records have been added.<br>
+    This is the <em>different</em> than after resetting the Section because the lab worker is still associated with the section<strong>:</strong><br>
+    <font face="Courier New, Courier, mono"><code>Joe has section: A2; Tuesday 4PM</code></font> <br>
+    <font face="Courier New, Courier, mono"><code>NO RECORDS</code></font> </li>
+  <li>now write the <font face="Courier New, Courier, mono">AddGrade()</font> method (and any other methods needed) </li>
+  <li>to test, uncomment <em>all</em> of the code for modeling week one and week two</li>
+  <li>now write the <font face="Courier New, Courier, mono">reset()</font> method in <font face="Courier New, Courier, mono">Section</font> (and any other methods needed) </li>
+  <li>to test, uncomment the last lines of code at the bottom of <font face="Courier New, Courier, mono">main()</font> - all of <font face="Courier New, Courier, mono">main()</font> should be uncommented now</li>
+</ol>
+<p>You are not required to go through these steps but if you do, we believe you will have a good chance of learning things, perhaps better than if you just hacked away in any old order of developement.</p>
+<p align="left">&nbsp;</p>
+<!-- #EndEditable --> 
+<p><a href="http://cis.poly.edu/cs1124">Home</a></p>
+<hr>
+<p><i>Maintained by <a href="http://cis.poly.edu/jsterling">John Sterling</a> 
+  (<a href="mailto:jsterling@poly.edu">jsterling@poly.edu</a>). </i><i>Last updated 
+  <!-- #BeginDate format:Am1 -->January 23, 2011<!-- #EndDate --> </i></p>
+<p>&nbsp; </p>
+</body>
+<!-- #EndTemplate --></html>

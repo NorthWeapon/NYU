@@ -1,0 +1,2 @@
+﻿  rec04.cpp
+c:\users\syed\documents\github\nyu\cs 1124\recitations\rec04\rec04.cpp(21): error C2797: 'Student::grades': list initialization inside member initializer list or non-static data member initializer is not implemented
