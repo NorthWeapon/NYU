@@ -82,8 +82,12 @@
     <ClCompile Include="rec06-015-vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="inheritance.html" />
+    <None Include="polymorphism.html" />
+    <None Include="privatepublicprotected.html" />
     <None Include="rec06-AK.html" />
     <None Include="rec06.html" />
+    <None Include="variables.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

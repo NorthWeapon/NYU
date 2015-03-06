@@ -71,5 +71,17 @@
     <None Include="rec06-AK.html">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="inheritance.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="polymorphism.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="privatepublicprotected.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="variables.html">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
