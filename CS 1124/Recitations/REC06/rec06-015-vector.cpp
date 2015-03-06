@@ -4,21 +4,23 @@ using namespace std;
 
 class PrintedMaterial {
 public:
-  PrintedMaterial( unsigned numPages )
-    : numOfPages(numPages)
-  {}
 
-  virtual
-  void displayNumPages() const = 0;
+  PrintedMaterial( unsigned numPages ) : numOfPages(numPages) {}
+
+  virtual void displayNumPages() const = 0;
+
 private:
+
   unsigned numOfPages;
 };
 
-void PrintedMaterial::displayNumPages() const {
+void PrintedMaterial::displayNumPages() const 
+{
   cout << numOfPages << endl;
 }
 
-class Magazine : public PrintedMaterial {
+class Magazine : public PrintedMaterial 
+{
 public:
 	Magazine( unsigned numPages )
 		: PrintedMaterial(numPages)
