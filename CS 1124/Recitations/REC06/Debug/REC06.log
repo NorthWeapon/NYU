@@ -1,0 +1,5 @@
+﻿  rec06-015-vector.cpp
+c:\users\syed\documents\github\nyu\cs 1124\recitations\rec06\rec06-015-vector.cpp(119): error C2259: 'Magazine' : cannot instantiate abstract class
+          due to following members:
+          'void PrintedMaterial::displayNumPages(void) const' : is abstract
+          c:\users\syed\documents\github\nyu\cs 1124\recitations\rec06\rec06-015-vector.cpp(10) : see declaration of 'PrintedMaterial::displayNumPages'

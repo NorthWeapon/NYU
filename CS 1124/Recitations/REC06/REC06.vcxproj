@@ -64,21 +64,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="rec06-000-hierarchy-only.cpp" />
-    <ClCompile Include="rec06-001-num-pgs-000.cpp" />
-    <ClCompile Include="rec06-002-correct-pgs.cpp" />
-    <ClCompile Include="rec06-003-just-base-ctor.cpp" />
-    <ClCompile Include="rec06-004-ctor-correct.cpp" />
-    <ClCompile Include="rec06-005-dispNumLOgsInBase.cpp" />
-    <ClCompile Include="rec06-006-bad-private.cpp" />
-    <ClCompile Include="rec06-007-indexpages.cpp" />
-    <ClCompile Include="rec06-008-a-PM-obj-disp.cpp" />
-    <ClCompile Include="rec06-009-PM-obj-assgnd-T.cpp" />
-    <ClCompile Include="rec06-010-prt-PM-wo-virt.cpp" />
-    <ClCompile Include="rec06-011-virt.cpp" />
-    <ClCompile Include="rec06-012-virt-ref.cpp" />
-    <ClCompile Include="rec06-013-abstract-first-try.cpp" />
-    <ClCompile Include="rec06-014-abstract-fixed.cpp" />
     <ClCompile Include="rec06-015-vector.cpp" />
   </ItemGroup>
   <ItemGroup>

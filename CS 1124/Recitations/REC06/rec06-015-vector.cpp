@@ -110,6 +110,10 @@ protected:
 private:
 };
 
+void displayNumberOfPages(const PrintedMaterial& anyPM)
+{
+	anyPM.displayNumPages();
+}
 
 // tester/modeler code
 int main()
@@ -132,9 +136,16 @@ int main()
 	allThemPrinties.push_back(&t);
 	allThemPrinties.push_back(&n);
 	allThemPrinties.push_back(&m);
-	for( size_t ndx=0; ndx < allThemPrinties.size(); ++ ndx ) 
+	for( size_t index=0; index < allThemPrinties.size(); ++ index ) 
 	{
-		allThemPrinties[ndx]->displayNumPages();
+		allThemPrinties[index]->displayNumPages();
 		cout << endl;
 	}
+
+	displayNumberOfPages(t);
+	displayNumberOfPages(m);
+	displayNumberOfPages(n);
+	system("pause");
+	return 0;
 }
+
