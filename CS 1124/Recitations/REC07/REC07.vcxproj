@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{A53F5CF4-9DBB-48D5-AF11-664B307C5193}</ProjectGuid>
+=======
+    <ProjectGuid>{AE9E3F4F-B649-4AE1-AFC3-AF5792DF5EDB}</ProjectGuid>
+>>>>>>> origin/master
     <RootNamespace>REC07</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 // PART TWO
 int main()
 {
@@ -88,5 +91,9 @@ int main()
 	cout << "orch performs\n";
 	orch.play();
 
+<<<<<<< HEAD
 } // main
+=======
+}
+>>>>>>> origin/master
 

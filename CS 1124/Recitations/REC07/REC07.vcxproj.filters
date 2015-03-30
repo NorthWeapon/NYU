@@ -28,11 +28,19 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="partOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="partTwo.cpp">
       <Filter>Resource Files</Filter>
+=======
+    <ClCompile Include="partTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="partOne.cpp">
+      <Filter>Source Files</Filter>
+>>>>>>> origin/master
     </ClCompile>
   </ItemGroup>
 </Project>
