@@ -1,0 +1,15 @@
+﻿Build started 4/28/2015 1:19:36 AM.
+     1>Project "C:\Users\Syed\Documents\GitHub\NYU\CS 1124\Homework\HW07\HW07.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt polynomial.cpp
+         polynomial.cpp
+     1>c:\users\syed\documents\github\nyu\cs 1124\homework\hw07\polynomial.cpp(18): error C4716: 'Polynomial::operator+': must return a value
+     1>c:\users\syed\documents\github\nyu\cs 1124\homework\hw07\polynomial.cpp(13): error C4716: 'Polynomial::operator+=': must return a value
+     1>c:\users\syed\documents\github\nyu\cs 1124\homework\hw07\polynomial.cpp(23): error C4716: 'Polynomial::operator==': must return a value
+     1>c:\users\syed\documents\github\nyu\cs 1124\homework\hw07\polynomial.cpp(35): error C4716: 'Polynomial::evaluate': must return a value
+     1>c:\users\syed\documents\github\nyu\cs 1124\homework\hw07\polynomial.cpp(28): error C4716: 'Polynomial::operator!=': must return a value
+     1>Done Building Project "C:\Users\Syed\Documents\GitHub\NYU\CS 1124\Homework\HW07\HW07.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.67
